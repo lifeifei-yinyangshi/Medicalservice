@@ -10,6 +10,8 @@ import java.util.Date;
 public class PatientRecord {
     //病历id
     private Integer id;
+    //主治医生id
+    private Integer doctorId;
     //科室id
     private Integer departmentId;
     //病人id
@@ -22,8 +24,8 @@ public class PatientRecord {
     private Date appointmentTime;
     //病历状态
     private String state;
-    //体检单id
+    //体检订单id
     private Integer physicalExaminationId;
-    //处方id
+    //处方订单id
     private Integer prescription;
 }

@@ -6,9 +6,9 @@ import java.util.List;
 
 @Data
 public class PhysicalExaminationOrder {
-    //处方单id
+    //体检订单id
     private Integer id;
-    //药品列表
+    //体检项目列表
     private List<PhysicalExaminationProject> medicalProjects;
     //总价格
     private Double price;
